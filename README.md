@@ -20,7 +20,7 @@ docker build -t mlep:wine .
 ```
 ### Run the container
 ```Dockerfile
-docker run --rm -p 80:80 mlep:wine
+docker run --rm -p 8000:80 mlep:wine
 ```
 ### Other resources
 - Best practices for writing Dockerfiles https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
